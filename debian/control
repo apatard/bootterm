@@ -1,0 +1,17 @@
+Source: bootterm
+Section: comm
+Priority: optional
+Maintainer: Arnaud Patard <apatard@hupstream.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.3.0
+Homepage: https://github.com/wtarreau/bootterm
+Vcs-Git: https://github.com/apatard/bootterm.git
+Vcs-Browser: https://github.com/apatard/bootterm.git
+
+Package: bootterm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: terminal designed to ease connection to USB serial ports
+ Bootterm is a simple, reliable and powerful terminal designed to
+ ease connection to ephemeral serial ports as found on various SBCs,
+ and typically USB-based ones.
